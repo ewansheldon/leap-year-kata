@@ -1,4 +1,4 @@
-require './leap_year'
+require './lib/year'
 
 describe 'leap_year?' do
   it 'returns false if year is not divisible by 4' do
