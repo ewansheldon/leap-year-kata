@@ -1,3 +1,5 @@
+require './leap_year'
+
 describe 'leap_year?' do
   it 'returns false if year is not divisible by 4' do
     year = Year.new(1997)
