@@ -1,2 +1,5 @@
-class YearBot
+class Year
+  def initialize(year)
+
+  end
 end
