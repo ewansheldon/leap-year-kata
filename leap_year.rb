@@ -6,19 +6,11 @@ class Year
   end
 
   def leap_year?
-    return false if !divisible_by_four || divisible_by_one_hundred && !divisible_by_four_hundred
+    return false if !divisible_by(4) || divisible_by(100) && !divisible_by(400)
     true
   end
 
-  def divisible_by_four
-    year % 4 == 0
-  end
-
-  def divisible_by_one_hundred
-    year % 100 == 0
-  end
-
-  def divisible_by_four_hundred
-    year % 400 == 0
+  def divisible_by(number)
+    year % number == 0
   end
 end
