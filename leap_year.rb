@@ -1,0 +1,2 @@
+class YearBot
+end
