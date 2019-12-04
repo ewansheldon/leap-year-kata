@@ -10,6 +10,8 @@ class Year
     true
   end
 
+  private
+
   def divisible_by(number)
     year % number == 0
   end
